@@ -2,7 +2,6 @@
 class Dog 
 
   @@all []
-  attr_accessor :name, :children
   
   def initialize (name)
     @name = name 
