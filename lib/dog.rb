@@ -7,14 +7,12 @@ class Dog
     @name = name 
     self.save
   end 
-    
-    def self.all
-      @@all 
-  end 
   
   def self.all
     @@all
   end
+  
+  
   
   
   
