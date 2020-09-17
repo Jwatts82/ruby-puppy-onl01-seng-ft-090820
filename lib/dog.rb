@@ -18,8 +18,8 @@ class Dog
     end
   end
   
-  def name.all
-    name
+  def name
+    @name
   end
   
   
