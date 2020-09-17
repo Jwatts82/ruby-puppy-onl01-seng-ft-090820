@@ -12,9 +12,12 @@ class Dog
   end 
   
   def self.all
-    @@all 
-  end 
+    @@all
+  end
   
+  def print_all = @@all
+      print_all.each.split |dog|
+  end 
   
 end 
     
