@@ -15,7 +15,7 @@ class Dog
     @@all
   end
   
-  def print_all = @@all
+  def print_all=@@all
       print_all.each.split |dog|
   end 
   
