@@ -5,7 +5,7 @@ class Dog
   
   def initialize (name)
     @name = name 
-    @children = []
+    self.save
     
     @@all = self 
   end 
