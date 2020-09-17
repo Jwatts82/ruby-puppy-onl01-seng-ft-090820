@@ -18,6 +18,10 @@ class Dog
     end
   end
   
+  def name.all
+    name
+  end
+  
   
   
 end 
