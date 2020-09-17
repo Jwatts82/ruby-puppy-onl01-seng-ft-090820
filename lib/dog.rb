@@ -1,34 +1,31 @@
 # Add your code here
-class Dog 
+class Dog
+  @@all = []
 
-  @@all []
-  
-  def initialize (name)
-    @name = name 
+  def initialize(name)
+    @name = name
     self.save
-  end 
-  
-  def self.clear_all
-    @@[]
-  end 
-  
+  end
+
   def self.all
     @@all
   end
-  
+
+  def self.clear_all
+    @@all = [] 
+  end
+
   def self.print_all
     @@all.each do |dog|
       puts dog.name
     end
-  end
-  
-  def save 
+end
+
+  def save
     @@all << self
   end
-  
+
   def name
     @name
   end
   
-end 
-    
