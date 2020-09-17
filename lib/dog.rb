@@ -8,6 +8,10 @@ class Dog
     self.save
   end 
   
+  def clear_all
+    @@[]
+  end 
+  
   def self.all
     @@all
   end
@@ -19,6 +23,8 @@ class Dog
   end
   
   def save 
+    @@all << self
+  end
   
   def name
     @name
